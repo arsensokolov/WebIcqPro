@@ -21,3 +21,6 @@ require_once __DIR__.'/vendor/autoload.php';
 $icq = new WebIcqPro();
 $icq->connect(UIN, PASSWORD)
 ```
+
+Подробная документация по всем свойствам и методам в Вики разделе:  
+<https://github.com/ArsenBespalov/WebIcqPro/wiki>
