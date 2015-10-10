@@ -22,5 +22,6 @@ $icq = new WebIcqPro();
 $icq->connect(UIN, PASSWORD)
 ```
 
+## Документация
 Подробная документация по всем свойствам и методам в Вики разделе:  
 <https://github.com/ArsenBespalov/WebIcqPro/wiki>
