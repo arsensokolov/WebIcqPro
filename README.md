@@ -12,20 +12,12 @@ composer require arsen-bespalov/webicqpro
 ```
 
 Подгрузите и инициализируйте класс:
-```
-<?php
-
+```php
 define('UIN', '881129');
 define('PASSWORD', '*************');
 
 require_once __DIR__.'/vendor/autoload.php';
+
 $icq = new WebIcqPro();
-if ($icq->connect(UIN, PASSWORD)) {
-  # code here
-}
-else {
-  exit();
-  echo "connect filed!\n";
-  echo $icq->error."\n";
-}
+$icq->connect(UIN, PASSWORD)
 ```
