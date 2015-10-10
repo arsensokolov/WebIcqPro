@@ -6,6 +6,26 @@
 Неофициальный ICQ API с которым можно многое. Например создать даже бота, не говоря уже о рассылке информативных сообщений.
 
 ## Установка
+Скачайте сам пакет:
 ```
 composer require arsen-bespalov/webicqpro
+```
+
+Подгрузите и инициализируйте класс:
+```
+<?php
+
+define('UIN', '881129');
+define('PASSWORD', '*************');
+
+require_once __DIR__.'/vendor/autoload.php';
+$icq = new WebIcqPro();
+if ($icq->connect(UIN, PASSWORD)) {
+  # code here
+}
+else {
+  exit();
+  echo "connect filed!\n";
+  echo $icq->error."\n";
+}
 ```
