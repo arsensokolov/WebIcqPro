@@ -1,0 +1,30 @@
+{
+    "name": "arsen-bespalov/webicqpro",
+    "version": "1.4.8b",
+    "homepage": "http://wip.asminog.com",
+    "description": "Unofficial ICQ API for send and recieve message.",
+    "keywords": ["icq", "icq bot", "icq api"],
+    "type": "library",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "Arsen Bespalov",
+            "email": "bespalov@arsen.pw",
+            "homepage": "http://arsen.pw"
+        },
+        {
+            "name": "Sergey Akudovich",
+            "email": "test@intrigue.ru",
+            "homepage": "http://wip.asminog.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.2.0"
+    },
+    "autoload": {
+        "classmap": [
+            "WebIcqPro.class.php"
+        ]
+    }
+}
