@@ -1,6 +1,6 @@
 {
     "name": "arsen-bespalov/webicqpro",
-    "version": "1.4.8b",
+    "version": "1.4.9b",
     "homepage": "http://wip.asminog.com",
     "description": "Unofficial ICQ API for send and recieve message.",
     "keywords": ["icq", "icq bot", "icq api"],
