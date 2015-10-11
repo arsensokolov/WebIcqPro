@@ -21,6 +21,7 @@
     "require": {
         "php": ">=5.2.0"
     },
+    "minimum-stability": "stable",
     "autoload": {
         "classmap": [
             "WebIcqPro.class.php"
