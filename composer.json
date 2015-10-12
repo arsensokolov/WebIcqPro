@@ -1,6 +1,6 @@
 {
     "name": "arsen-bespalov/webicqpro",
-    "description": "Unofficial ICQ API for send and recieve message.",
+    "description": "Set of PHP tools for simple and clear work with ICQ (OSCAR) protocol",
     "version": "1.4.9-b",
     "type": "library",
     "keywords": ["icq", "icq bot", "icq api"],
