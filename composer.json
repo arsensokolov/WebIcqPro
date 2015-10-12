@@ -1,7 +1,7 @@
 {
     "name": "arsen-bespalov/webicqpro",
     "description": "Set of PHP tools for simple and clear work with ICQ (OSCAR) protocol",
-    "version": "1.4.9-b",
+    "version": "1.4.9",
     "type": "library",
     "keywords": ["icq", "icq bot", "icq api"],
     "homepage": "http://wip.asminog.com",
